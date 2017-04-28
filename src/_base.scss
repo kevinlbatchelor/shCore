@@ -1,3 +1,17 @@
+$color-primary: rgba(33, 97, 145, 1);
+$font-family: Montserrat, 'Lucida Grande', sans-serif;
+$font-size-primary: 14px;
+$font-size-large: 20px;
+$icon-font-size: 22px;
+$size-font-small: 12px;
+
+$size-border-radius: 0;
+$color-black: rgba(29, 29, 38, 1);
+$color-font-label: rgba(29, 29, 38, 1);
+$color-white: rgba(255, 255, 255, 1);
+$color-error: rgba(110,0,0,1);
+$color-font: rgba(29, 29, 38, 1);
+
 $color-font: rgba(255, 255, 255, 1);
 $color-font-label: rgba($color-font, .4);
 
@@ -38,11 +52,10 @@ $colorToolTipColor: rgba(0, 0, 0, .7);
 $colorToolTipBackground: rgb(255, 255, 255);
 $colorToolTipText: rgb(0, 0, 0);
 
-$color-primary: rgba(58, 182, 118, 1);
+$color-primary: rgba(33, 97, 145, 1);
 $color-secondary: #284D51;
 $color-thirdary: #304853;
 $color-neural: rgba(0, 202, 255, 1);
-$color-error: rgba(178, 82, 69, 1);
 $color-warning: rgb(231, 143, 43);
 
 $size-font: 14px;
@@ -54,11 +67,8 @@ $size-font5: $size-font + 14px;
 $size-font6: $size-font + 20px;
 $size-font7: $size-font + 30px;
 
-$size-border-radius: 4px;
 $size-border-radius-small: 2px;
 
-$font-family: 'Roboto', 'Open Sans';
-$font-family-condensed: 'Roboto Condensed', 'Open Sans';
 $font-weight-light: 300;
 $font-weight-normal: 400;
 $font-weight-bold: 700;

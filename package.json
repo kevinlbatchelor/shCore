@@ -1,5 +1,5 @@
 {
-  "name": "sh-core",
+  "name": "sh-core-emvio",
   "version": "0.3.3",
   "description": "Base SASS and React files for SuperheroUI components",
   "main": "bin/sh-core.js",
@@ -7,10 +7,8 @@
     "clean": "rm -r ./bin",
     "test": "./node_modules/.bin/karma start",
     "test-watch": "./node_modules/.bin/karma start --no-single-run",
-    "coveralls": "./node_modules/.bin/coveralls < ./bin/coverage/lcov/lcov.info",
-    "build": "./node_modules/.bin/webpack -d --config webpack.config.js & node-sass --output-style compressed src/main.scss bin/main.css",
-    "dev": "./node_modules/.bin/webpack -d --watch --config webpack.config.js",
-    "css": "node-sass --output-style compressed src/main.scss bin/main.css & node-sass --output-style compressed -w src/main.scss bin/main.css"
+    "build": "./node_modules/.bin/webpack -p --config webpack.config.js",
+    "dev": "./node_modules/.bin/webpack -d --watch --config webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -18,14 +16,10 @@
   },
   "keywords": [
     "react",
-    "componets",
-    "insidesales.com"
+    "componets"
   ],
   "author": "Kevin <kevinbatchelor@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/superheroui/shCore/issues"
-  },
   "homepage": "https://superheroui.github.io/",
   "devDependencies": {
     "babel-core": "^6.11.4",
@@ -50,7 +44,7 @@
     "style-loader": "^0.13.1",
     "webpack": "^1.13.1"
   },
-  "dependencies": {
+  "peerDependencies": {
     "lodash": "^4.15.0"
   }
 }
